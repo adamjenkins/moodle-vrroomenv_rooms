@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>rooms/art-gallery</location>
+    <name>Neptunian Museum</name>
+    <description>3D room "Art gallery" (art-gallery) for VR room. Credit: Neptunian Museum by Tomcat94 (opengameart.org/content/neptunian-museum-museum-model), CC0. Converted from COLLADA to glTF; the SketchUp sample figure was removed.</description>
+    <version>Neptunian Museum.dae (SketchUp 14.1, 2015-04-16; sha256 77ef388f0441)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://opengameart.org/content/neptunian-museum-museum-model</repository>
+    <copyrights>
+      <copyright>Tomcat94</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/atrium</location>
+    <name>Hubs Atrium environment</name>
+    <description>3D room "Atrium house" (atrium) for VR room. Credit: "Hubs Atrium environment" by Hubs Foundation / Mozilla, MPL-2.0 (github.com/Hubs-Foundation/hubs-atrium-environment @ c1e60c8448c0); modified: navmesh removed, textures recompressed</description>
+    <version>c1e60c8448c0</version>
+    <license>MPL</license>
+    <licenseversion>2.0</licenseversion>
+    <repository>https://github.com/Hubs-Foundation/hubs-atrium-environment</repository>
+    <copyrights>
+      <copyright>Mozilla</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/cave</location>
+    <name>Cave (WebXR Samples)</name>
+    <description>3D room "Cave" (cave) for VR room. Credit: "Cave" scene by Brandon Jones; "Mushroom" and "Bat" by Poly by Google; "Crystal Cluster" by Lee Mason; "Tree-2" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened.</description>
+    <version>main branch, downloaded 2026-10-08 (commit not recorded); cave.gltf sha256 33ce4a94a9cf93b3</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://github.com/immersive-web/webxr-samples/tree/main/media/gltf/cave</repository>
+    <copyrights>
+      <copyright>Brandon Jones (no copyright line in the source; ATTRIBUTION.md names the authors)</copyright>
+      <copyright>Poly by Google</copyright>
+      <copyright>Lee Mason</copyright>
+      <copyright>Trackball</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/classroom</location>
+    <name>classroom</name>
+    <description>3D room "Classroom" (classroom) for VR room. Credit: classroom by Jonathan Granskog [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/2BTjD6QAdt); scaled, room enlarged and furniture rearranged, two desks duplicated, projector and one window removed</description>
+    <version>Poly Pizza model 2BTjD6QAdt, downloaded 2026-10-08 (obj2gltf export)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/2BTjD6QAdt</repository>
+    <copyrights>
+      <copyright>Jonathan Granskog (no copyright line in the source)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/forest-camp</location>
+    <name>Low Poly Forest Scene</name>
+    <description>3D room "Forest camp" (forest-camp) for VR room. Credit: Low Poly Forest Scene by nurbix_studioz [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/2ZRBoN2Fyb). Changed: scaled x3, trees copied along the edges.</description>
+    <version>Poly Pizza model 2ZRBoN2Fyb, downloaded 2026-10-08; sha256 5505fd3eba8cdb28</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/2ZRBoN2Fyb</repository>
+    <copyrights>
+      <copyright>nurbix_studioz (no copyright line in the source)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/house</location>
+    <name>House interior</name>
+    <description>3D room "House" (house) for VR room. Credit: House interior by Gabriele Romagnoli [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/AQQ2g0YE2D). Scaled to metres and meshes merged.</description>
+    <version>Poly Pizza download 2026-10-08 (sha256 6998000ac0cd)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/AQQ2g0YE2D</repository>
+    <copyrights>
+      <copyright>Gabriele Romagnoli</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/lake</location>
+    <name>Surrounded Lake</name>
+    <description>3D room "Mountain lake" (lake) for VR room. Credit: "Surrounded Lake" by Hubs Team (Mozilla Hubs), from github.com/Hubs-Foundation/hubs-blender-files, CC0 1.0; navmesh, collision mesh and spawn points removed, textures recompressed</description>
+    <version>Hubs scene UNzm1IH (Mozilla Spoke 1.0.0.20200110004939 export)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://github.com/Hubs-Foundation/hubs-blender-files</repository>
+    <copyrights>
+      <copyright>Hubs Team (Mozilla Hubs) (no copyright line in the source; repository LICENSE is CC0 1.0)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/lecture-theatre</location>
+    <name>Theatre V0.1</name>
+    <description>3D room "Theatre stage" (lecture-theatre) for VR room. Credit: Theatre V0.1 by Cormac White [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/8jExwEzwPAe); scaled, side curtains moved, wall lettering removed</description>
+    <version>Poly Pizza model 8jExwEzwPAe, downloaded 2026-10-08 (obj2gltf export)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/8jExwEzwPAe</repository>
+    <copyrights>
+      <copyright>Cormac White (no copyright line in the source)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/library</location>
+    <name>Library (assembled from Building Kit and Furniture Kit)</name>
+    <description>3D room "Library" (library) for VR room. Credit: Building Kit and Furniture Kit by Kenney (www.kenney.nl), CC0 (credit optional). Assembled into a room for VR room.</description>
+    <version>Building Kit 1.0 (2025-03-29); Furniture Kit 2.0 (2018-10-20)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://kenney.nl/assets/furniture-kit</repository>
+    <copyrights>
+      <copyright>Kenney (www.kenney.nl)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/meeting-room</location>
+    <name>Cliffside Meeting Room</name>
+    <description>3D room "Cliffside meeting room" (meeting-room) for VR room. Credit: "Meeting Space - Hubs Original", "Cliff Vista - Hubs Original" and "Light Fixture - Ceiling Recessed" by mozillareality (sketchfab.com/mozillareality), CC BY 4.0; scene "Cliffside Meeting Room" by Hubs Team; modified: helpers removed, textures recompressed</description>
+    <version>Hubs scene vhbm7xk (Spoke export 1.0.0.20201019174350)</version>
+    <license>CC-BY</license>
+    <licenseversion>4.0</licenseversion>
+    <repository>https://github.com/Hubs-Foundation/hubs-blender-files</repository>
+    <copyrights>
+      <copyright>mozillareality</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/mini-market</location>
+    <name>Mini Market 1.0 (assembled into a shop)</name>
+    <description>3D room "Mini market" (mini-market) for VR room. Credit: Mini Market by Kenney (www.kenney.nl), with Fleur Keijsers and Guus Vermeulen, CC0 1.0 (credit optional). Assembled into a room for VR room.</description>
+    <version>1.0 (2024-10-25)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://kenney.nl/assets/mini-market</repository>
+    <copyrights>
+      <copyright>Kenney (www.kenney.nl); additional credits Fleur Keijsers, Guus Vermeulen</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/mission-control</location>
+    <name>JSC Mission Control Room</name>
+    <description>3D room "Mission control room" (mission-control) for VR room. Credit: 'JSC Mission Control Room' model courtesy of NASA 3D Resources (source: DigitalSpace Corporation). Use does not imply NASA endorsement. Changed: colours added.</description>
+    <version>git blob 43f6a670e303 ("JSC Mission Control Room.glb", tree 11ebb4ee0437); sha256 296d6d12bef495bc</version>
+    <license>Public domain</license>
+    <repository>https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/JSC%20Mission%20Control%20Room</repository>
+    <copyrights>
+      <copyright>NASA 3D Resources (no copyright line; the repository README calls the models "free and without copyright")</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/museum-entrance</location>
+    <name>The Entryway - Museum Diorama</name>
+    <description>3D room "Museum entrance hall" (museum-entrance) for VR room. Credit: The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled</description>
+    <version>Poly Pizza model 9bdkTVw8GE8, downloaded 2026-10-08 (obj2gltf export)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/9bdkTVw8GE8</repository>
+    <copyrights>
+      <copyright>Joshua Johanson (no copyright line in the source)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/round-table-hall</location>
+    <name>Round Table Room</name>
+    <description>3D room "Round table hall" (round-table-hall) for VR room. Credit: "Round Table Room / empty / Mozilla Hubs", "Door", "Round Table", "Roman Stool", "Banner", "Fountain", "Banner Torn", "Torch" by plasmaernst (sketchfab.com/plasmaernst), CC BY 4.0; Hubs scene by Hubs Team; modified: helpers removed, textures recompressed</description>
+    <version>Hubs scene GLiNzir (Spoke export 1.0.0.20201019174350)</version>
+    <license>CC-BY</license>
+    <licenseversion>4.0</licenseversion>
+    <repository>https://github.com/Hubs-Foundation/hubs-blender-files</repository>
+    <copyrights>
+      <copyright>plasmaernst</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/school</location>
+    <name>Hubs School v1.0</name>
+    <description>3D room "School building" (school) for VR room. Credit: "Hubs School v1.0" by Hubs Team (Mozilla Hubs / Hubs Foundation), from github.com/Hubs-Foundation/hubs-blender-files, CC0 1.0 (originally shared with remixing under CC BY 3.0); modified: posters and Hubs door notes blanked, props simplified, distant pods removed</description>
+    <version>Hubs scene OojOIa3 (Spoke export 1.0.0.20201005235520)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://github.com/Hubs-Foundation/hubs-blender-files</repository>
+    <copyrights>
+      <copyright>Hubs Team (Mozilla Hubs / Hubs Foundation)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/science-lab</location>
+    <name>Science laboratory (assembled from Lab Assets and Building Kit)</name>
+    <description>3D room "Science laboratory" (science-lab) for VR room. Credit: Lab Assets by MilkAndBanana (CC0); Building Kit by Kenney (www.kenney.nl), CC0 (credit optional). Assembled into a room for VR room.</description>
+    <version>Lab Assets (2022-01-31); Building Kit 1.0 (2025-03-29)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://opengameart.org/content/lab-assets</repository>
+    <copyrights>
+      <copyright>MilkAndBanana; Kenney (www.kenney.nl)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/space-station</location>
+    <name>Modular Space Kit and Space Station Kit</name>
+    <description>3D room "Space station" (space-station) for VR room. Credit: Modular Space Kit and Space Station Kit by Kenney (www.kenney.nl), CC0 1.0 (credit optional). Assembled into a station.</description>
+    <version>Modular Space Kit 1.0 (15-02-2026), Space Station Kit 1.0 (10-04-2024); room-large.glb sha256 fc418d3747a037f8</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://kenney.nl/assets/modular-space-kit</repository>
+    <copyrights>
+      <copyright>Kenney (www.kenney.nl)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/town-square</location>
+    <name>Fantasy Town Kit 2.0 (assembled into a town square)</name>
+    <description>3D room "Town square" (town-square) for VR room. Credit: Fantasy Town Kit by Kenney (www.kenney.nl), CC0 1.0 (credit optional). Assembled into a room for VR room.</description>
+    <version>2.0 (2025-08-03)</version>
+    <license>CC0</license>
+    <licenseversion>1.0</licenseversion>
+    <repository>https://kenney.nl/assets/fantasy-town-kit</repository>
+    <copyrights>
+      <copyright>Kenney (www.kenney.nl)</copyright>
+    </copyrights>
+  </library>
+</libraries>
