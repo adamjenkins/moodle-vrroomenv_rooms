@@ -2,7 +2,14 @@
 
 ## Unreleased
 
-- First version: 18 rooms for VR room (`mod_vrroom`), from freely licensed sources, each with a
-  starting point, walking bounds and 4 to 20 places for stations. Teachers choose them in the
-  activity form and the room editor; each room's credit is shown on the activity page.
+- First version: 20 rooms for VR room (`mod_vrroom`), from freely licensed sources, each with a
+  starting point, walking bounds and places for stations (4 to 20, or 2 or more in a small room).
+  Teachers choose them in the activity form and the room editor; each room's credit is shown on
+  the activity page.
+- Two small rooms, a kitchen and a workshop, with smaller station areas and 2 places for stations
+  each.
+- The NASA mission control room is replaced by a spaceship corridor (its provenance was unclear).
+  An activity that used it shows a plain hall instead, and teachers see a notice asking them to
+  choose another room.
 - Rooms from Mozilla Hubs keep their baked lighting.
+- Requires `mod_vrroom` 2026100804 or later (the version that supports small rooms).

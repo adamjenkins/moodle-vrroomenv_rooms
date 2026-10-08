@@ -76,6 +76,18 @@
     </copyrights>
   </library>
   <library>
+    <location>rooms/kitchen</location>
+    <name>Cozy Kitchen</name>
+    <description>3D room "Kitchen" (kitchen) for VR room. Credit: Cozy Kitchen by Lachlan Sleight [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/6bOTntCJyyK). Scaled to metres.</description>
+    <version>Poly Pizza model 6bOTntCJyyK, downloaded 2026-10-08 (sha256 4d808a53f73e)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/6bOTntCJyyK</repository>
+    <copyrights>
+      <copyright>Lachlan Sleight</copyright>
+    </copyrights>
+  </library>
+  <library>
     <location>rooms/lake</location>
     <name>Surrounded Lake</name>
     <description>3D room "Mountain lake" (lake) for VR room. Credit: "Surrounded Lake" by Hubs Team (Mozilla Hubs), from github.com/Hubs-Foundation/hubs-blender-files, CC0 1.0; navmesh, collision mesh and spawn points removed, textures recompressed</description>
@@ -136,17 +148,6 @@
     </copyrights>
   </library>
   <library>
-    <location>rooms/mission-control</location>
-    <name>JSC Mission Control Room</name>
-    <description>3D room "Mission control room" (mission-control) for VR room. Credit: 'JSC Mission Control Room' model courtesy of NASA 3D Resources (source: DigitalSpace Corporation). Use does not imply NASA endorsement. Changed: colours added.</description>
-    <version>git blob 43f6a670e303 ("JSC Mission Control Room.glb", tree 11ebb4ee0437); sha256 296d6d12bef495bc</version>
-    <license>Public domain</license>
-    <repository>https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/JSC%20Mission%20Control%20Room</repository>
-    <copyrights>
-      <copyright>NASA 3D Resources (no copyright line; the repository README calls the models "free and without copyright")</copyright>
-    </copyrights>
-  </library>
-  <library>
     <location>rooms/museum-entrance</location>
     <name>The Entryway - Museum Diorama</name>
     <description>3D room "Museum entrance hall" (museum-entrance) for VR room. Credit: The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled</description>
@@ -195,6 +196,18 @@
     </copyrights>
   </library>
   <library>
+    <location>rooms/space-hallway</location>
+    <name>Space Ship Hallway</name>
+    <description>3D room "Spaceship corridor" (space-hallway) for VR room. Credit: "Space Ship Hallway" by yeeyeeman (sketchfab.com/3d-models/space-ship-hallway-e97dce00ae5549a8a3795e06bc2cfc96), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), via the three.js examples (github.com/mrdoob/three.js, examples/models/gltf/space_ship_hallway.glb); scaled and centred</description>
+    <version>three.js commit 167c022af428 (examples/models/gltf/space_ship_hallway.glb, sha256 051c58dea019); Sketchfab model e97dce00ae5549a8a3795e06bc2cfc96 (published 2019-10-02)</version>
+    <license>CC-BY</license>
+    <licenseversion>4.0</licenseversion>
+    <repository>https://sketchfab.com/3d-models/space-ship-hallway-e97dce00ae5549a8a3795e06bc2cfc96</repository>
+    <copyrights>
+      <copyright>yeeyeeman</copyright>
+    </copyrights>
+  </library>
+  <library>
     <location>rooms/space-station</location>
     <name>Modular Space Kit and Space Station Kit</name>
     <description>3D room "Space station" (space-station) for VR room. Credit: Modular Space Kit and Space Station Kit by Kenney (www.kenney.nl), CC0 1.0 (credit optional). Assembled into a station.</description>
@@ -216,6 +229,18 @@
     <repository>https://kenney.nl/assets/fantasy-town-kit</repository>
     <copyrights>
       <copyright>Kenney (www.kenney.nl)</copyright>
+    </copyrights>
+  </library>
+  <library>
+    <location>rooms/workshop</location>
+    <name>Vendal's workshop</name>
+    <description>3D room "Workshop" (workshop) for VR room. Credit: Vendal's workshop by Nick Slough [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/bMMbKP7AsZM). Scaled; the office chair and an instant camera removed.</description>
+    <version>Poly Pizza model bMMbKP7AsZM, downloaded 2026-10-08 (sha256 6eb1b80b7613)</version>
+    <license>CC-BY</license>
+    <licenseversion>3.0</licenseversion>
+    <repository>https://poly.pizza/m/bMMbKP7AsZM</repository>
+    <copyrights>
+      <copyright>Nick Slough</copyright>
     </copyrights>
   </library>
 </libraries>

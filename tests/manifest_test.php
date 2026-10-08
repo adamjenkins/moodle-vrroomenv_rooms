@@ -108,4 +108,51 @@ final class manifest_test extends \advanced_testcase {
             $this->assertContains('rooms/' . $id, $locations, "Room {$id}: no library in thirdpartylibs.xml.");
         }
     }
+
+    /**
+     * Every room's licence has its text in LICENSES/, and every text there is used by a room.
+     */
+    public function test_licence_texts_exist(): void {
+        $dir = $this->pack_dir();
+        // Licence => file in LICENSES/. No public-domain text ships, so a PD room fails here.
+        $files = [
+            'CC0-1.0' => 'CC0-1.0.txt',
+            'CC-BY-3.0' => 'CC-BY-3.0.txt',
+            'CC-BY-4.0' => 'CC-BY-4.0.txt',
+            'MPL-2.0' => 'MPL-2.0.txt',
+        ];
+        $used = [];
+        foreach ($this->rooms() as $id => $room) {
+            $licence = $room['licence'];
+            $this->assertArrayHasKey($licence, $files, "Room {$id}: no licence text is shipped for {$licence}.");
+            $this->assertFileExists($dir . '/LICENSES/' . $files[$licence], "Room {$id}: LICENSES/{$files[$licence]} is missing.");
+            $used[$files[$licence]] = true;
+        }
+        $shipped = array_values(array_diff(scandir($dir . '/LICENSES'), ['.', '..']));
+        foreach ($shipped as $file) {
+            $this->assertArrayHasKey($file, $used, "LICENSES/{$file} is not used by any room.");
+        }
+    }
+
+    /**
+     * Small rooms have 2 to 20 station places and smaller station areas; the kitchen and workshop are small.
+     */
+    public function test_small_rooms(): void {
+        $rooms = $this->rooms();
+        foreach ($rooms as $id => $room) {
+            if (empty($room['small'])) {
+                continue;
+            }
+            $count = count($room['anchors']);
+            $this->assertGreaterThanOrEqual(environment_registry::MIN_ANCHORS_SMALL, $count, "Room {$id}: too few anchors.");
+            $this->assertLessThanOrEqual(environment_registry::MAX_ANCHORS, $count, "Room {$id}: too many anchors.");
+            $this->assertArrayHasKey('zonesize', $room, "Room {$id}: a small room needs a zonesize.");
+            $this->assertLessThan(environment_registry::ZONE_SIZE, $room['zonesize'], "Room {$id}: zonesize is not below 3.");
+        }
+        foreach (['kitchen', 'workshop'] as $id) {
+            if (isset($rooms[$id])) {
+                $this->assertTrue($rooms[$id]['small'] ?? false, "Room {$id} must be a small room.");
+            }
+        }
+    }
 }
