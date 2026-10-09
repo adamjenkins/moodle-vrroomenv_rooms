@@ -135,6 +135,34 @@ final class manifest_test extends \advanced_testcase {
     }
 
     /**
+     * Every start point lies at least 0.5 m inside its room's bounds, and every anchor and exit lies inside them.
+     *
+     * The viewer keeps the player 0.3 m inside the bounds, so a start closer to an edge is moved before the first frame.
+     */
+    public function test_start_points_inside_bounds(): void {
+        $margin = 0.5;
+        $epsilon = 1e-9;
+        foreach ($this->rooms() as $id => $room) {
+            $min = $room['bounds']['min'];
+            $max = $room['bounds']['max'];
+            [$x, , $z] = $room['start']['position'];
+            $edge = min($x - $min[0], $max[0] - $x, $z - $min[2], $max[2] - $z);
+            $message = "Room {$id}: the start point is only {$edge} m inside the bounds (at least {$margin} m needed).";
+            $this->assertGreaterThanOrEqual($margin - $epsilon, $edge, $message);
+            $places = $room['anchors'];
+            if (isset($room['exit'])) {
+                $places[] = $room['exit'];
+            }
+            foreach ($places as $n => $place) {
+                [$px, , $pz] = $place['position'];
+                $inside = $px >= $min[0] - $epsilon && $px <= $max[0] + $epsilon
+                    && $pz >= $min[2] - $epsilon && $pz <= $max[2] + $epsilon;
+                $this->assertTrue($inside, "Room {$id}: place {$n} ({$px}, {$pz}) is outside the bounds.");
+            }
+        }
+    }
+
+    /**
      * Small rooms have 2 to 20 station places and smaller station areas; the kitchen and workshop are small.
      */
     public function test_small_rooms(): void {

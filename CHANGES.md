@@ -14,3 +14,5 @@
 - Rooms from Mozilla Hubs keep their baked lighting.
 - Requires `mod_vrroom` 2026100804 or later (the version that supports small rooms).
 - GitHub Actions CI on Moodle 5.3.
+- The kitchen has walls on all sides and a ceiling; the kitchen, workshop and lecture theatre start
+  points moved further inside their rooms.

@@ -171,11 +171,11 @@
       "category": "home",
       "file": "rooms/kitchen/room.glb",
       "preview": "rooms/kitchen/preview.jpg",
-      "bytes": 465924,
+      "bytes": 468400,
       "licence": "CC-BY-3.0",
-      "credit": "Cozy Kitchen by Lachlan Sleight [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/6bOTntCJyyK). Scaled to metres.",
+      "credit": "Cozy Kitchen by Lachlan Sleight [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/6bOTntCJyyK). Scaled to metres; a north wall, a west wall and a ceiling added.",
       "source": "https://poly.pizza/m/6bOTntCJyyK",
-      "start": {"position": [-2.0, 0, -0.2], "yaw": -90},
+      "start": {"position": [-1.8, 0, 0.3], "yaw": -90},
       "bounds": {"min": [-2.32, 0, -2.54], "max": [1.07, 0, 2.05]},
       "anchors": [
         {"position": [-1.62, 0, -2.445], "yaw": 0},
@@ -186,7 +186,7 @@
       "exit": {"position": [0.9, 0, -0.3], "yaw": -90},
       "sky": "#dcd8d0",
       "lightmap": false,
-      "stats": {"triangles": 9034, "vertices": 16585, "textures": 0}
+      "stats": {"triangles": 9070, "vertices": 16657, "textures": 0}
     },
     "lake": {
       "name": "room_lake",
@@ -227,7 +227,7 @@
       "licence": "CC-BY-3.0",
       "credit": "Theatre V0.1 by Cormac White [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/8jExwEzwPAe); scaled, side curtains moved, wall lettering removed",
       "source": "https://poly.pizza/m/8jExwEzwPAe",
-      "start": {"position": [8.6, 0, -1.5], "yaw": 103.0},
+      "start": {"position": [8.5, 0, -1.5], "yaw": 103.0},
       "bounds": {"min": [3.3, 0, -4.0], "max": [9.0, 0, 3.5]},
       "anchors": [
         {"position": [5.6, 0, -3.32], "yaw": -90.0},
@@ -536,7 +536,7 @@
       "licence": "CC-BY-3.0",
       "credit": "Vendal's workshop by Nick Slough [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/bMMbKP7AsZM). Scaled; the office chair and an instant camera removed.",
       "source": "https://poly.pizza/m/bMMbKP7AsZM",
-      "start": {"position": [2.6, 0, 0.7], "yaw": 70},
+      "start": {"position": [1.45, 0, 0.62], "yaw": 65},
       "bounds": {"min": [-0.7, 0, -1.93], "max": [2.7, 0, 1.16]},
       "anchors": [
         {"position": [2.1, 0, -0.938], "yaw": 0},

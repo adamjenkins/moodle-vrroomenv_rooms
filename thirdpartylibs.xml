@@ -78,7 +78,7 @@
   <library>
     <location>rooms/kitchen</location>
     <name>Cozy Kitchen</name>
-    <description>3D room "Kitchen" (kitchen) for VR room. Credit: Cozy Kitchen by Lachlan Sleight [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/6bOTntCJyyK). Scaled to metres.</description>
+    <description>3D room "Kitchen" (kitchen) for VR room. Credit: Cozy Kitchen by Lachlan Sleight [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/6bOTntCJyyK). Scaled to metres; a north wall, a west wall and a ceiling added.</description>
     <version>Poly Pizza model 6bOTntCJyyK, downloaded 2026-10-08 (sha256 4d808a53f73e)</version>
     <license>CC-BY</license>
     <licenseversion>3.0</licenseversion>

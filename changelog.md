@@ -18,6 +18,15 @@ All notable changes to this plugin are documented here. The format follows
 - PHPUnit test of the pack's manifest, files, strings, credits, licence texts and small rooms.
 - GitHub Actions workflow (Moodle 5.3; PHP 8.3 + MariaDB 11.4, PHP 8.4 + PostgreSQL 17), installing
   `mod_vrroom` first.
+- `tests/manifest_test.php`: every start point is at least 0.5 m inside its room's bounds, and every
+  anchor and exit is inside them.
+
+### Changed
+
+- `kitchen`: a north wall, a west wall and a ceiling added (the source has walls on two sides only);
+  start moved to (-1.8, 0.3). `workshop` start moved to (1.45, 0.62), facing 65, inside the 0.3 m
+  walking margin and away from the first station; `lecture-theatre` start x 8.6 to 8.5.
+  `$plugin->version` 2026100900 so browsers fetch the new files.
 
 ### Removed
 
