@@ -13,7 +13,7 @@ This pack is not published on the Moodle Plugins directory.
 
 ## Requirements
 
-- Moodle 5.2 or 5.3 (`$plugin->supported = [502, 503]`).
+- Moodle 5.2 or 5.3 (`$plugin->supported = [502, 503]`). Continuous integration currently tests Moodle 5.3 only.
 - `mod_vrroom` version 2026100804 or later (the version that supports small rooms; the
   `vrroomenv` room-pack sub-plugin type exists from 2026100802).
 - A browser with WebGL to see the rooms in 3D. The list view of an activity does not need them.
