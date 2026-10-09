@@ -3,7 +3,7 @@
 All notable changes to this plugin are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [0.1.0] - Unreleased
 
 ### Added
 
@@ -16,6 +16,8 @@ All notable changes to this plugin are documented here. The format follows
 - Credits for every room in `README.md`, `thirdpartylibs.xml` and the manifest; licence texts in
   `LICENSES/`.
 - PHPUnit test of the pack's manifest, files, strings, credits, licence texts and small rooms.
+- GitHub Actions workflow (Moodle 5.3; PHP 8.3 + MariaDB 11.4, PHP 8.4 + PostgreSQL 17), installing
+  `mod_vrroom` first.
 
 ### Removed
 

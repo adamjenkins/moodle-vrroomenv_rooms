@@ -1,6 +1,6 @@
 # Changes
 
-## Unreleased
+## 0.1.0 (not yet tagged) — ALPHA
 
 - First version: 20 rooms for VR room (`mod_vrroom`), from freely licensed sources, each with a
   starting point, walking bounds and places for stations (4 to 20, or 2 or more in a small room).
@@ -13,3 +13,4 @@
   choose another room.
 - Rooms from Mozilla Hubs keep their baked lighting.
 - Requires `mod_vrroom` 2026100804 or later (the version that supports small rooms).
+- GitHub Actions CI on Moodle 5.3.
