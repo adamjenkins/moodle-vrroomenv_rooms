@@ -20,5 +20,26 @@ labels:
   #   donation-supported | commercial-support-available
   #   requires-core-patch (needs modifications to Moodle core to work)
   - fully-free
+screenshots:
+  - path: .camp/screenshots/01-forest-camp.jpg
+    caption: 'Forest camp: Low Poly Forest Scene by nurbix_studioz (CC BY 3.0).'
+  - path: .camp/screenshots/02-theatre-stage.jpg
+    caption: 'Theatre stage: Theatre V0.1 by Cormac White (CC BY 3.0).'
+  - path: .camp/screenshots/03-round-table-hall.jpg
+    caption: 'Round table hall: models by plasmaernst, scene by Hubs Team (CC BY 4.0).'
+  - path: .camp/screenshots/04-workshop.jpg
+    caption: 'Workshop: Vendal''s workshop by Nick Slough (CC BY 3.0).'
+  - path: .camp/screenshots/05-cave.jpg
+    caption: 'Cave: scene by Brandon Jones; models by Poly by Google, Lee Mason and Trackball (CC BY 3.0).'
+  - path: .camp/screenshots/06-classroom.jpg
+    caption: 'Classroom: by Jonathan Granskog (CC BY 3.0).'
+  - path: .camp/screenshots/07-library.jpg
+    caption: 'Library: assembled from Kenney''s Building Kit and Furniture Kit (CC0).'
+  - path: .camp/screenshots/08-mini-market.jpg
+    caption: 'Mini market: Kenney''s Mini Market kit (CC0).'
+  - path: .camp/screenshots/09-school-building.jpg
+    caption: 'School building: Hubs School v1.0 by Hubs Team (CC0).'
+  - path: .camp/screenshots/10-room-chooser.jpg
+    caption: 'Teachers pick a room in the activity settings; the preview shows its credit and places for stations.'
 links:
   issues: https://github.com/adamjenkins/moodle-vrroomenv_rooms/issues
