@@ -1,0 +1,24 @@
+# camp listing manifest: descriptive content for the plugin's page.
+# camp ingests this file at each tagged release.
+# Schema: https://camp-registry.org/schema/listing.schema.json
+name: VR room bundled rooms
+summary: Twenty ready-made 3D rooms for the VR room activity, from freely licensed sources, each with its credit.
+description: |
+  A room pack for the VR room activity: 20 ready-made 3D rooms (classrooms,
+  a theatre stage, a museum, homes, a kitchen, workplaces, outdoor places and
+  science-fiction rooms) that teachers can use instead of the simple built-in
+  rooms. Each room comes with a starting point, the area students can walk
+  in, and 4 to 20 places for stations; the two small rooms have 2 each.
+
+  The rooms come from freely licensed sources (CC0, CC BY, MPL). Each keeps
+  its own licence, and its credit is shown on the activity page.
+
+  Requires VR room (mod_vrroom). Moodle 5.2 and 5.3. ALPHA.
+labels:
+  # Disclosure labels (RFC §4.7):
+  #   fully-free | freemium | paid-service | external-account
+  #   donation-supported | commercial-support-available
+  #   requires-core-patch (needs modifications to Moodle core to work)
+  - fully-free
+links:
+  issues: https://github.com/adamjenkins/moodle-vrroomenv_rooms/issues

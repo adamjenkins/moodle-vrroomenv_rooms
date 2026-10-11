@@ -1,6 +1,6 @@
 # Changes
 
-## 0.1.0 (not yet tagged) — ALPHA
+## 0.1.0 (2026-10-11) — ALPHA
 
 - First version: 20 rooms for VR room (`mod_vrroom`), from freely licensed sources, each with a
   starting point, walking bounds and places for stations (4 to 20, or 2 or more in a small room).
