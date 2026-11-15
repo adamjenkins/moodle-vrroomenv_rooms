@@ -1,0 +1,11 @@
+{
+    "name": "adamjenkins/moodle-vrroomenv_rooms",
+    "description": "Twenty ready-made 3D rooms for the VR room activity, from freely licensed sources, each with its credit",
+    "type": "moodle-vrroomenv",
+    "require": {
+        "moodle/moodle": ">=5.2 <5.4",
+        "moodle/composer-installer": "^1.0",
+        "adamjenkins/moodle-mod_vrroom": "^0.1"
+    },
+    "license": "GPL-3.0-or-later"
+}
