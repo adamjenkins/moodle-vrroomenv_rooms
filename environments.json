@@ -60,6 +60,7 @@
         {"position": [13.831, 0, 2.95], "yaw": 180},
         {"position": [18.331, 0, 1.95], "yaw": -90}
       ],
+      "walk": "walk.glb",
       "exit": {"position": [13.0, 0, 5.75], "yaw": 180},
       "lightmap": false,
       "stats": {"triangles": 5358, "vertices": 8249, "textures": 25}
@@ -237,6 +238,7 @@
         {"position": [8.6, 0, 0.0], "yaw": -90.0},
         {"position": [8.6, 0, -3.0], "yaw": -90.0}
       ],
+      "walk": "walk.glb",
       "lightmap": false,
       "stats": {"triangles": 35120, "vertices": 67704, "textures": 0}
     },
@@ -296,6 +298,7 @@
         {"position": [3.548, 0, 1.2], "yaw": 90},
         {"position": [5.048, 0, 5.7], "yaw": -135}
       ],
+      "walk": "walk.glb",
       "exit": {"position": [0, 0, 6.5], "yaw": 180},
       "sky": "#9cc9ef",
       "lightmap": false,
@@ -333,12 +336,12 @@
       "category": "culture",
       "file": "rooms/museum-entrance/room.glb",
       "preview": "rooms/museum-entrance/preview.jpg",
-      "bytes": 1372276,
+      "bytes": 1404328,
       "licence": "CC-BY-3.0",
-      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled",
+      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added",
       "source": "https://poly.pizza/m/9bdkTVw8GE8",
       "start": {"position": [-4.4, 0, 1.9], "yaw": -75.0},
-      "bounds": {"min": [-7.6, 0, -5.6], "max": [3.8, 0, 5.8]},
+      "bounds": {"min": [-8.0, 0, -5.6], "max": [8.0, 4.76, 5.8]},
       "anchors": [
         {"position": [-2.35, 0, 0.3], "yaw": -90.0},
         {"position": [-7.0, 0, -4.5], "yaw": 90.0},
@@ -349,9 +352,15 @@
         {"position": [-2.0, 0, 5.0], "yaw": 180.0},
         {"position": [-6.5, 0, 3.5], "yaw": 90.0}
       ],
+      "walk": "walk.glb",
+      "levels": [
+        {"name": "level_museum_entrance_ground", "y": 0},
+        {"name": "level_museum_entrance_landings", "y": 1.67, "start": {"position": [6.0, 1.67, 0.0], "yaw": 90}},
+        {"name": "level_museum_entrance_gallery", "y": 4.76, "start": {"position": [-7.0, 4.76, 0.5], "yaw": -90}, "anchors": [{"position": [-7.7, 4.76, -1.5], "yaw": 90}, {"position": [5.5, 4.76, -3.3], "yaw": 0}, {"position": [5.5, 4.76, 2.75], "yaw": 180}]}
+      ],
       "sky": "#cfd8e0",
       "lightmap": false,
-      "stats": {"triangles": 25863, "vertices": 50105, "textures": 0}
+      "stats": {"triangles": 26435, "vertices": 51249, "textures": 0}
     },
     "round-table-hall": {
       "name": "room_round_table_hall",

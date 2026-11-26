@@ -27,6 +27,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['level_museum_entrance_gallery'] = 'Upper gallery';
+$string['level_museum_entrance_ground'] = 'Ground floor';
+$string['level_museum_entrance_landings'] = 'Stair landings';
 $string['pluginname'] = 'Bundled rooms';
 $string['privacy:metadata'] = 'The Bundled rooms pack holds 3D rooms and their credits only. It stores no personal data.';
 $string['room_art_gallery'] = 'Art gallery';
