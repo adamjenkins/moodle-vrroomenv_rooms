@@ -70,12 +70,12 @@
       "category": "outdoors",
       "file": "rooms/cave/room.glb",
       "preview": "rooms/cave/preview.jpg",
-      "bytes": 354104,
+      "bytes": 1131128,
       "licence": "CC-BY-3.0",
-      "credit": "\"Cave\" scene by Brandon Jones; \"Mushroom\" and \"Bat\" by Poly by Google; \"Crystal Cluster\" by Lee Mason; \"Tree-2\" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened.",
+      "credit": "\"Cave\" scene by Brandon Jones; \"Mushroom\" and \"Bat\" by Poly by Google; \"Crystal Cluster\" by Lee Mason; \"Tree-2\" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened. Walk mesh, boundary, lanterns, signs and setting added.",
       "source": "https://github.com/immersive-web/webxr-samples/tree/main/media/gltf/cave",
       "start": {"position": [0.7, 0, 6.5], "yaw": 0},
-      "bounds": {"min": [-4.0, 0, -17.3], "max": [9.1, 0, 10.5]},
+      "bounds": {"min": [-9.6, 0.0, -24.2], "max": [12.6, 4.25, 12.0]},
       "anchors": [
         {"position": [2.075, 0, 3.943], "yaw": -135},
         {"position": [4.075, 0, -1.557], "yaw": -45},
@@ -86,10 +86,18 @@
         {"position": [2.075, 0, -12.557], "yaw": -45},
         {"position": [-0.425, 0, -15.557], "yaw": 45}
       ],
-      "exit": {"position": [7.6, 0, -11.9], "yaw": -60},
-      "sky": "#8fb9de",
+      "exit": {"position": [7.6, 0.121, -11.9], "yaw": -60},
+      "sky": "#9cc3e6",
       "lightmap": false,
-      "stats": {"triangles": 5894, "vertices": 12927, "textures": 0}
+      "stats": {"triangles": 17306, "vertices": 25785, "textures": 5},
+      "walk": "walk.glb",
+      "view": {"position": [0.7, 1.6, 7.0], "look": [1.2, 1.2, -4.0]},
+      "ambient": {"src": "ambient.mp3", "gain": 0.25},
+      "lights": [
+        {"type": "hemisphere", "intensity": 2.2, "skycolor": "#e6eefb", "groundcolor": "#a08c70"},
+        {"type": "directional", "intensity": 1.4, "color": "#ffe2b4", "position": [4, 12, -10]}
+      ],
+      "env": {"sky": "#9cc3e6", "ground": "#a08c70", "horizon": "#c8dced", "sun": {"color": "#fff1d6", "direction": [0.248, 0.744, -0.62]}}
     },
     "classroom": {
       "name": "room_classroom",
@@ -336,9 +344,9 @@
       "category": "culture",
       "file": "rooms/museum-entrance/room.glb",
       "preview": "rooms/museum-entrance/preview.jpg",
-      "bytes": 1404328,
+      "bytes": 2965816,
       "licence": "CC-BY-3.0",
-      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added",
+      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, signs and setting added",
       "source": "https://poly.pizza/m/9bdkTVw8GE8",
       "start": {"position": [-4.4, 0, 1.9], "yaw": -75.0},
       "bounds": {"min": [-8.0, 0, -5.6], "max": [8.0, 4.76, 5.8]},
@@ -358,9 +366,16 @@
         {"name": "level_museum_entrance_landings", "y": 1.67, "start": {"position": [6.0, 1.67, 0.0], "yaw": 90}},
         {"name": "level_museum_entrance_gallery", "y": 4.76, "start": {"position": [-7.0, 4.76, 0.5], "yaw": -90}, "anchors": [{"position": [-7.7, 4.76, -1.5], "yaw": 90}, {"position": [5.5, 4.76, -3.3], "yaw": 0}, {"position": [5.5, 4.76, 2.75], "yaw": 180}]}
       ],
-      "sky": "#cfd8e0",
+      "sky": "#b9d2e8",
       "lightmap": false,
-      "stats": {"triangles": 26435, "vertices": 51249, "textures": 0}
+      "stats": {"triangles": 39389, "vertices": 64197, "textures": 11},
+      "view": {"position": [-4.6, 1.6, 2.4], "look": [3.0, 1.9, -1.6]},
+      "ambient": {"src": "ambient.mp3", "gain": 0.2},
+      "lights": [
+        {"type": "hemisphere", "intensity": 2.4, "skycolor": "#eef2fb", "groundcolor": "#c8b08c"},
+        {"type": "directional", "intensity": 1.6, "color": "#ffe2b4", "position": [-8, 14, 6]}
+      ],
+      "env": {"sky": "#b9d2e8", "ground": "#c8b08c", "horizon": "#d7e3ee", "sun": {"color": "#fff1d6", "direction": [-0.465, 0.814, 0.349]}}
     },
     "round-table-hall": {
       "name": "room_round_table_hall",
