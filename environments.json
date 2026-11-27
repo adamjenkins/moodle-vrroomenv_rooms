@@ -96,7 +96,8 @@
         {"type": "directional", "intensity": 1.4, "color": "#ffe2b4", "position": [4, 12, -10]}
       ],
       "env": {"sky": "#9cc3e6", "ground": "#a08c70", "horizon": "#c8dced", "sun": {"color": "#fff1d6", "direction": [0.248, 0.744, -0.62]}},
-      "stats": {"triangles": 16004, "vertices": 22021, "textures": 5}
+      "stats": {"triangles": 16004, "vertices": 22021, "textures": 5},
+      "walkclear": 0.3
     },
     "classroom": {
       "name": "room_classroom",
@@ -352,7 +353,7 @@
       "category": "culture",
       "file": "rooms/museum-entrance/room.glb",
       "preview": "rooms/museum-entrance/preview.jpg",
-      "bytes": 2973948,
+      "bytes": 2978308,
       "licence": "CC-BY-3.0",
       "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, two barrier posts removed, signs and setting added",
       "source": "https://poly.pizza/m/9bdkTVw8GE8",
@@ -382,7 +383,13 @@
         {"type": "directional", "intensity": 1.6, "color": "#ffe2b4", "position": [-8, 14, 6]}
       ],
       "env": {"sky": "#b9d2e8", "ground": "#c8b08c", "horizon": "#d7e3ee", "sun": {"color": "#fff1d6", "direction": [-0.465, 0.814, 0.349]}},
-      "stats": {"triangles": 39307, "vertices": 64033, "textures": 11}
+      "stats": {"triangles": 39339, "vertices": 64097, "textures": 11},
+      "walkclear": 0.3,
+      "seats": [
+        {"name": "bench_1", "position": [1.9, 0.46, -4.0], "yaw": 0.0, "approach": [2.068, -0.012, -4.628]},
+        {"name": "bench_2", "position": [2.5, 0.46, -4.0], "yaw": 0.0, "approach": [2.668, -0.012, -4.628]},
+        {"name": "bench_3", "position": [3.1, 0.46, -4.0], "yaw": 0.0, "approach": [2.932, -0.012, -4.628]}
+      ]
     },
     "round-table-hall": {
       "name": "room_round_table_hall",
