@@ -6,8 +6,8 @@
   a street and forecourt round it with its name over a new entrance; English signs a language teacher can use
   (opening times, admission prices, a floor guide, exhibit labels, visitor rules); a clock, a swinging pendulum, an
   ambient sound loop and an opening view. Its walk mesh and stations are unchanged.
-- The cave can now be walked properly: a walk mesh over the cave floor and the hill outside, with a line of boulders
-  where the walkable ground ends. It sits in a landscape instead of floating, has lanterns along the path, moving
+- The cave can now be walked properly: a walk mesh over the cave floor and the foot of the hill outside, with a line
+  of boulders and a sign where the walkable ground ends. It sits in a landscape instead of floating, has lanterns along the path, moving
   bats and trees, show-cave signs in English, an ambient sound loop and an opening view.
 - Both rooms use the optional manifest keys `view`, `ambient` and `env` that newer VR room versions read; older
   versions ignore them.
