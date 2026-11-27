@@ -3,6 +3,19 @@
 All notable changes to this plugin are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Removed
+
+- `ambient.mp3` and the manifest key `ambient` from `museum-entrance` and `cave` (owner, 2026-11-27: the synthesised
+  loops sounded wrong; a room gets sound only from a real, licence-checked recording the owner has approved).
+
+### Changed
+
+- `walk.glb` of `atrium`, `lecture-theatre` and `meeting-room`: cut 0.3 m (the walker's body radius) back from every
+  wall, railing and piece of furniture between knee and head height (room kit `packsafe.py`), so a walker's body
+  can never stand overlapping a railing it cannot see.
+
 ## [0.2.0] - 2026-11-27
 
 ### Added

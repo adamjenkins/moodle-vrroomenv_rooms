@@ -92,7 +92,6 @@
       "stats": {"triangles": 16054, "vertices": 22141, "textures": 5},
       "walk": "walk.glb",
       "view": {"position": [0.7, 1.6, 7.0], "look": [1.2, 1.2, -4.0]},
-      "ambient": {"src": "ambient.mp3", "gain": 0.25},
       "lights": [
         {"type": "hemisphere", "intensity": 2.2, "skycolor": "#e6eefb", "groundcolor": "#a08c70"},
         {"type": "directional", "intensity": 1.4, "color": "#ffe2b4", "position": [4, 12, -10]}
@@ -370,7 +369,6 @@
       "lightmap": false,
       "stats": {"triangles": 39389, "vertices": 64197, "textures": 11},
       "view": {"position": [-4.5, 1.6, 1.5], "look": [2.0, 1.8, -0.6]},
-      "ambient": {"src": "ambient.mp3", "gain": 0.2},
       "lights": [
         {"type": "hemisphere", "intensity": 2.4, "skycolor": "#eef2fb", "groundcolor": "#c8b08c"},
         {"type": "directional", "intensity": 1.6, "color": "#ffe2b4", "position": [-8, 14, 6]}

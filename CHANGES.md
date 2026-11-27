@@ -1,5 +1,12 @@
 # Changes
 
+## Unreleased
+
+- **No background sound.** The museum entrance and the cave no longer play a synthesised background sound: it did
+  not sound like the places it was meant for.
+- **Nobody gets stuck.** In the atrium house, the theatre and the cliffside meeting room, the floor you can walk on
+  now keeps clear of walls, railings and furniture, so walking along a railing or into a corner never traps you.
+
 ## 0.2.0 (2026-11-27) — ALPHA
 
 Needs VR room (mod_vrroom) 0.2.0 or later.
