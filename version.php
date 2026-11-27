@@ -25,11 +25,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'vrroomenv_rooms';
-$plugin->version = 2026111500;
-$plugin->release = '0.1.2';
+$plugin->version = 2026112700;
+$plugin->release = '0.2.0';
 $plugin->maturity = MATURITY_ALPHA;
 // Moodle 5.2.0 (the v5.2.0 tag's public/version.php: 2026042000.00).
 $plugin->requires = 2026042000;
 $plugin->supported = [502, 503];
 // Small rooms (2 or 3 station places, smaller station areas) need this mod_vrroom version.
-$plugin->dependencies = ['mod_vrroom' => 2026100804];
+$plugin->dependencies = ['mod_vrroom' => 2026112700];

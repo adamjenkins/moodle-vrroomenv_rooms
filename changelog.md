@@ -3,6 +3,24 @@
 All notable changes to this plugin are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.2.0] - 2026-11-27
+
+### Added
+
+- Walk meshes (`walk.glb`) for `museum-entrance` (with a new staircase to the upper gallery), `lecture-theatre`,
+  `atrium`, `meeting-room` and `cave`.
+- `museum-entrance` and `cave`: signs in English, a clock (museum), animations (`loop:*`), a synthesised
+  `ambient.mp3`, and the manifest keys `view`, `ambient` and `env`.
+
+### Changed
+
+- `museum-entrance` re-finished: stone walls, a terrazzo floor, marble columns, an oak gallery floor, a setting with a
+  forecourt and an entrance. The geometry is unchanged, and the credit is extended.
+- `cave`: land and hills round it, lanterns, a boundary of boulders at the end of the walkable ground, and the rock
+  tinted warmer. The credit is extended.
+- `$plugin->version` 2026112700, `$plugin->release` 0.2.0, dependency `mod_vrroom` 2026112700; Composer requires
+  `adamjenkins/moodle-mod_vrroom` `^0.2`.
+
 ## [0.1.2] - 2026-11-15
 
 ### Added
