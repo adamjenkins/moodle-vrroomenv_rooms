@@ -27,7 +27,7 @@
   <library>
     <location>rooms/cave</location>
     <name>Cave (WebXR Samples)</name>
-    <description>3D room "Cave" (cave) for VR room. Credit: "Cave" scene by Brandon Jones; "Mushroom" and "Bat" by Poly by Google; "Crystal Cluster" by Lee Mason; "Tree-2" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened.</description>
+    <description>3D room "Cave" (cave) for VR room. Credit: "Cave" scene by Brandon Jones; "Mushroom" and "Bat" by Poly by Google; "Crystal Cluster" by Lee Mason; "Tree-2" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened. Walk mesh, boundary, lanterns, signs and setting added.</description>
     <version>main branch, downloaded 2026-10-08 (commit not recorded); cave.gltf sha256 33ce4a94a9cf93b3</version>
     <license>CC-BY</license>
     <licenseversion>3.0</licenseversion>
@@ -150,7 +150,7 @@
   <library>
     <location>rooms/museum-entrance</location>
     <name>The Entryway - Museum Diorama</name>
-    <description>3D room "Museum entrance hall" (museum-entrance) for VR room. Credit: The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled</description>
+    <description>3D room "Museum entrance hall" (museum-entrance) for VR room. Credit: The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, signs and setting added</description>
     <version>Poly Pizza model 9bdkTVw8GE8, downloaded 2026-10-08 (obj2gltf export)</version>
     <license>CC-BY</license>
     <licenseversion>3.0</licenseversion>
