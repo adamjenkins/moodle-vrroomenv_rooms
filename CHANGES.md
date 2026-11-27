@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- **Screens for your pictures**: the classroom, the meeting room and the lecture theatre each have a screen you can
+  show a picture or a slide on in VR room.
 - **No background sound.** The museum entrance and the cave no longer play a synthesised background sound: it did
   not sound like the places it was meant for.
 - **Nobody gets stuck.** In the atrium house, the theatre and the cliffside meeting room, the floor you can walk on

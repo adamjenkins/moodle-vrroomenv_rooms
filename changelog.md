@@ -5,6 +5,13 @@ All notable changes to this plugin are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- Screen slots (manifest key `slots`, kind `screen`, for VR room's picture drop zones): `classroom` `front_screen` on the
+  front wall above the teacher's desk (1.8 x 1.0 m), `meeting-room` `wall_screen` between the north windows
+  (2.4 x 1.35 m), `lecture-theatre` `stage_screen` on the stage's back wall (3.2 x 1.8 m); each 1.5 cm proud of its
+  wall, and each room's `bounds` raised to take it in (the registry drops a slot outside the bounds).
+
 ### Removed
 
 - `ambient.mp3` and the manifest key `ambient` from `museum-entrance` and `cave` (owner, 2026-11-27: the synthesised
