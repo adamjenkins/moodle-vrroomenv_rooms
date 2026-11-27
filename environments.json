@@ -70,7 +70,7 @@
       "category": "outdoors",
       "file": "rooms/cave/room.glb",
       "preview": "rooms/cave/preview.jpg",
-      "bytes": 1019632,
+      "bytes": 1015512,
       "licence": "CC-BY-3.0",
       "credit": "\"Cave\" scene by Brandon Jones; \"Mushroom\" and \"Bat\" by Poly by Google; \"Crystal Cluster\" by Lee Mason; \"Tree-2\" by Trackball; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), from github.com/immersive-web/webxr-samples. Changed: floor levelled, cave widened. Walk mesh, boundary, lanterns, signs and setting added.",
       "source": "https://github.com/immersive-web/webxr-samples/tree/main/media/gltf/cave",
@@ -86,17 +86,17 @@
         {"position": [2.075, 0, -12.557], "yaw": -45},
         {"position": [-0.425, 0, -15.557], "yaw": 45}
       ],
-      "exit": {"position": [7.6, 0.121, -11.9], "yaw": -60},
+      "exit": {"position": [7.6, 0.121, -11.9], "yaw": -90},
       "sky": "#9cc3e6",
       "lightmap": false,
-      "stats": {"triangles": 16054, "vertices": 22141, "textures": 5},
       "walk": "walk.glb",
       "view": {"position": [0.7, 1.6, 7.0], "look": [1.2, 1.2, -4.0]},
       "lights": [
         {"type": "hemisphere", "intensity": 2.2, "skycolor": "#e6eefb", "groundcolor": "#a08c70"},
         {"type": "directional", "intensity": 1.4, "color": "#ffe2b4", "position": [4, 12, -10]}
       ],
-      "env": {"sky": "#9cc3e6", "ground": "#a08c70", "horizon": "#c8dced", "sun": {"color": "#fff1d6", "direction": [0.248, 0.744, -0.62]}}
+      "env": {"sky": "#9cc3e6", "ground": "#a08c70", "horizon": "#c8dced", "sun": {"color": "#fff1d6", "direction": [0.248, 0.744, -0.62]}},
+      "stats": {"triangles": 16004, "vertices": 22021, "textures": 5}
     },
     "classroom": {
       "name": "room_classroom",
@@ -343,14 +343,14 @@
       "category": "culture",
       "file": "rooms/museum-entrance/room.glb",
       "preview": "rooms/museum-entrance/preview.jpg",
-      "bytes": 2965540,
+      "bytes": 2973948,
       "licence": "CC-BY-3.0",
-      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, signs and setting added",
+      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, two barrier posts removed, signs and setting added",
       "source": "https://poly.pizza/m/9bdkTVw8GE8",
       "start": {"position": [-4.4, 0, 1.9], "yaw": -75.0},
       "bounds": {"min": [-8.0, 0, -5.6], "max": [8.0, 4.76, 5.8]},
       "anchors": [
-        {"position": [-2.35, 0, 0.3], "yaw": -90.0},
+        {"position": [-2.2, 0, 0.5], "yaw": -90.0},
         {"position": [-7.0, 0, -4.5], "yaw": 90.0},
         {"position": [-2.5, 0, -4.5], "yaw": 0.0},
         {"position": [0.5, 0, -4.5], "yaw": 0.0},
@@ -367,13 +367,13 @@
       ],
       "sky": "#b9d2e8",
       "lightmap": false,
-      "stats": {"triangles": 39389, "vertices": 64197, "textures": 11},
       "view": {"position": [-4.5, 1.6, 1.5], "look": [2.0, 1.8, -0.6]},
       "lights": [
         {"type": "hemisphere", "intensity": 2.4, "skycolor": "#eef2fb", "groundcolor": "#c8b08c"},
         {"type": "directional", "intensity": 1.6, "color": "#ffe2b4", "position": [-8, 14, 6]}
       ],
-      "env": {"sky": "#b9d2e8", "ground": "#c8b08c", "horizon": "#d7e3ee", "sun": {"color": "#fff1d6", "direction": [-0.465, 0.814, 0.349]}}
+      "env": {"sky": "#b9d2e8", "ground": "#c8b08c", "horizon": "#d7e3ee", "sun": {"color": "#fff1d6", "direction": [-0.465, 0.814, 0.349]}},
+      "stats": {"triangles": 39307, "vertices": 64033, "textures": 11}
     },
     "round-table-hall": {
       "name": "room_round_table_hall",

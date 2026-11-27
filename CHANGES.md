@@ -6,6 +6,10 @@
   not sound like the places it was meant for.
 - **Nobody gets stuck.** In the atrium house, the theatre and the cliffside meeting room, the floor you can walk on
   now keeps clear of walls, railings and furniture, so walking along a railing or into a corner never traps you.
+- **The museum entrance's staircase is easy to use**: one straight flight, wider and open underneath, with room
+  to step on and off at the bottom and the top. Signs no longer hang on doors or inside pillars, and nothing passes
+  through anything else.
+- **The cave's way out** faces the path, and its signs and boulders stand properly on the ground.
 
 ## 0.2.0 (2026-11-27) — ALPHA
 

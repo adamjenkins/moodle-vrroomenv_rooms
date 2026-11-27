@@ -15,6 +15,12 @@ All notable changes to this plugin are documented here. The format follows
 - `walk.glb` of `atrium`, `lecture-theatre` and `meeting-room`: cut 0.3 m (the walker's body radius) back from every
   wall, railing and piece of furniture between knee and head height (room kit `packsafe.py`), so a walker's body
   can never stand overlapping a railing it cannot see.
+- `museum-entrance` rebuilt with the room kit's safety checks: the gallery stair (node `gallery-stair`) is one
+  straight flight of 27 risers (176 mm, 37.8 degrees), 1.2 m wide, open underneath, with landings of 1.5 m at its
+  foot and 2.0 m at its head; two of the model's barrier posts at its foot removed (credit extended); signs off
+  doors, piers and mouldings; entrance door on a landing; pendulum ring smaller; station 0 at (-2.2, 0, 0.5).
+- `cave` rebuilt with the same checks: exit yaw -90 (was -60, facing downhill off the walk mesh); way-out sign out
+  of a rock pillar; boundary boulders resting on the ground (21 of 22); bats no longer bob into the roof.
 
 ## [0.2.0] - 2026-11-27
 
