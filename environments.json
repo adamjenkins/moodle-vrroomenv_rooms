@@ -453,7 +453,9 @@
       "exit": {"position": [-7.9, 0, 17.7], "yaw": 180},
       "sky": "#9cc9ef",
       "lightmap": true,
-      "stats": {"triangles": 78581, "vertices": 69589, "textures": 47}
+      "stats": {"triangles": 78581, "vertices": 69589, "textures": 47},
+      "walk": "walk.glb",
+      "walkclear": 0.3
     },
     "science-lab": {
       "name": "room_science_lab",

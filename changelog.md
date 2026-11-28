@@ -28,6 +28,17 @@ All notable changes to this plugin are documented here. The format follows
   doors, piers and mouldings; entrance door on a landing; pendulum ring smaller; station 0 at (-2.2, 0, 0.5).
 - `cave` rebuilt with the same checks: exit yaw -90 (was -60, facing downhill off the walk mesh); way-out sign out
   of a rock pillar; boundary boulders resting on the ground (21 of 22); bats no longer bob into the roof.
+- Reachability with VR room's own path-finder (nav.js), from the start to every station's viewing spot, level start,
+  seat and stair end:
+  - `atrium`, `lecture-theatre`, `meeting-room`: `"walkclear": 0.3` (their walk meshes are already cut back 0.3 m;
+    without it the path-finder cut again and lost the atrium's east room).
+  - `house`, `school`: a `walk.glb` (`"walk"`, `"walkclear": 0.3`), the floors of the model cut back 0.3 m, 0.15 m in
+    the 0.7 m doors and corridor of the house and in the school's doorways.
+  - `museum-entrance`: the walk mesh is the model's floor cut once (it had been cut twice); the east stairs' ramps
+    re-laid at 36.7 degrees (VR room drops walk triangles steeper than 40); the pendulum moved west of the diorama,
+    the sign posts at least 1.5 m apart, the bench against the north wall; the upper gallery cut back 0.2 m (it is
+    1 m wide); two more of the model's barrier posts removed (credit extended: four); the east station on the south
+    gallery faces west, along the gallery (yaw -90, was 180).
 
 ## [0.2.0] - 2026-11-27
 

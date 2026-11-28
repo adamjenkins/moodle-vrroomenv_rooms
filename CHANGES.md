@@ -12,6 +12,9 @@
   to step on and off at the bottom and the top. Signs no longer hang on doors or inside pillars, and nothing passes
   through anything else.
 - **The cave's way out** faces the path, and its signs and boulders stand properly on the ground.
+- **Every place can be walked to.** In the museum entrance, the atrium, the house and the school, VR room's
+  "walk to" now finds a way to every station, stair and level: the museum's pendulum, signs and bench make room,
+  the narrow doors of the house and the school can be walked through, and the museum's side stairs can be climbed.
 
 ## 0.2.0 (2026-11-27) — ALPHA
 
