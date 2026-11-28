@@ -177,7 +177,9 @@
       ],
       "sky": "#9cc9ef",
       "lightmap": false,
-      "stats": {"triangles": 12864, "vertices": 25672, "textures": 0}
+      "stats": {"triangles": 12864, "vertices": 25672, "textures": 0},
+      "walk": "walk.glb",
+      "walkclear": 0.3
     },
     "kitchen": {
       "name": "room_kitchen",
