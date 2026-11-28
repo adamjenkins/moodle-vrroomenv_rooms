@@ -63,7 +63,8 @@
       "walk": "walk.glb",
       "exit": {"position": [13.0, 0, 5.75], "yaw": 180},
       "lightmap": false,
-      "stats": {"triangles": 5358, "vertices": 8249, "textures": 25}
+      "stats": {"triangles": 5358, "vertices": 8249, "textures": 25},
+      "walkclear": 0.3
     },
     "cave": {
       "name": "room_cave",
@@ -254,7 +255,8 @@
       "stats": {"triangles": 35120, "vertices": 67704, "textures": 0},
       "slots": [
         {"name": "stage_screen", "kind": "screen", "position": [9.385, 2.6, -0.75], "yaw": -90, "size": [3.2, 1.8]}
-      ]
+      ],
+      "walkclear": 0.3
     },
     "library": {
       "name": "room_library",
@@ -319,7 +321,8 @@
       "stats": {"triangles": 6283, "vertices": 8904, "textures": 6},
       "slots": [
         {"name": "wall_screen", "kind": "screen", "position": [0.0, 1.9, -5.985], "yaw": 0, "size": [2.4, 1.35]}
-      ]
+      ],
+      "walkclear": 0.3
     },
     "mini-market": {
       "name": "room_mini_market",
