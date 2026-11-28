@@ -353,42 +353,42 @@
       "category": "culture",
       "file": "rooms/museum-entrance/room.glb",
       "preview": "rooms/museum-entrance/preview.jpg",
-      "bytes": 2978308,
+      "bytes": 2981340,
       "licence": "CC-BY-3.0",
-      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, two barrier posts removed, signs and setting added",
+      "credit": "The Entryway - Museum Diorama by Joshua Johanson [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/9bdkTVw8GE8); scaled; staircase to the upper gallery added; re-finished, four barrier posts removed, signs and setting added",
       "source": "https://poly.pizza/m/9bdkTVw8GE8",
-      "start": {"position": [-4.4, 0, 1.9], "yaw": -75.0},
-      "bounds": {"min": [-8.0, 0, -5.6], "max": [8.0, 4.76, 5.8]},
+      "start": {"position": [-4.4, 0, 1.9], "yaw": -75},
+      "bounds": {"min": [-8, 0, -5.6], "max": [8, 4.76, 5.8]},
       "anchors": [
-        {"position": [-2.2, 0, 0.5], "yaw": -90.0},
-        {"position": [-7.0, 0, -4.5], "yaw": 90.0},
-        {"position": [-2.5, 0, -4.5], "yaw": 0.0},
-        {"position": [0.5, 0, -4.5], "yaw": 0.0},
-        {"position": [0.0, 0, 2.0], "yaw": 180.0},
-        {"position": [3.0, 0, 4.0], "yaw": -90.0},
-        {"position": [-2.0, 0, 5.0], "yaw": 180.0},
-        {"position": [-6.5, 0, 3.5], "yaw": 90.0}
+        {"position": [-2.2, 0, 0.5], "yaw": -90},
+        {"position": [-7, 0, -4.5], "yaw": 90},
+        {"position": [-2.5, 0, -4.5], "yaw": 0},
+        {"position": [0.5, 0, -4.5], "yaw": 0},
+        {"position": [0, 0, 2], "yaw": 180},
+        {"position": [3, 0, 4], "yaw": -90},
+        {"position": [-2, 0, 5], "yaw": 180},
+        {"position": [-6.5, 0, 3.5], "yaw": 90}
       ],
       "walk": "walk.glb",
       "levels": [
         {"name": "level_museum_entrance_ground", "y": 0},
-        {"name": "level_museum_entrance_landings", "y": 1.67, "start": {"position": [6.0, 1.67, 0.0], "yaw": 90}},
-        {"name": "level_museum_entrance_gallery", "y": 4.76, "start": {"position": [-7.0, 4.76, 0.5], "yaw": -90}, "anchors": [{"position": [-7.7, 4.76, -1.5], "yaw": 90}, {"position": [5.5, 4.76, -3.3], "yaw": 0}, {"position": [5.5, 4.76, 2.75], "yaw": 180}]}
+        {"name": "level_museum_entrance_landings", "y": 1.67, "start": {"position": [6, 1.67, 0], "yaw": 90}},
+        {"name": "level_museum_entrance_gallery", "y": 4.76, "start": {"position": [-7, 4.76, 0.5], "yaw": -90}, "anchors": [{"position": [-7.7, 4.76, -1.5], "yaw": 90}, {"position": [5.5, 4.76, -3.3], "yaw": 0}, {"position": [5.5, 4.76, 2.75], "yaw": -90}]}
       ],
       "sky": "#b9d2e8",
       "lightmap": false,
-      "view": {"position": [-4.5, 1.6, 1.5], "look": [2.0, 1.8, -0.6]},
+      "view": {"position": [-4.5, 1.6, 1.5], "look": [2, 1.8, -0.6]},
       "lights": [
         {"type": "hemisphere", "intensity": 2.4, "skycolor": "#eef2fb", "groundcolor": "#c8b08c"},
         {"type": "directional", "intensity": 1.6, "color": "#ffe2b4", "position": [-8, 14, 6]}
       ],
       "env": {"sky": "#b9d2e8", "ground": "#c8b08c", "horizon": "#d7e3ee", "sun": {"color": "#fff1d6", "direction": [-0.465, 0.814, 0.349]}},
-      "stats": {"triangles": 39339, "vertices": 64097, "textures": 11},
+      "stats": {"triangles": 39293, "vertices": 64081, "textures": 11},
       "walkclear": 0.3,
       "seats": [
-        {"name": "bench_1", "position": [1.9, 0.46, -4.0], "yaw": 0.0, "approach": [2.068, -0.012, -4.628]},
-        {"name": "bench_2", "position": [2.5, 0.46, -4.0], "yaw": 0.0, "approach": [2.668, -0.012, -4.628]},
-        {"name": "bench_3", "position": [3.1, 0.46, -4.0], "yaw": 0.0, "approach": [2.932, -0.012, -4.628]}
+        {"name": "bench_1", "position": [1.9, 0.46, -4.72], "yaw": 0, "approach": [1.2, -0.01, -4.72]},
+        {"name": "bench_2", "position": [2.5, 0.46, -4.72], "yaw": 0, "approach": [2.5, -0.01, -4.07]},
+        {"name": "bench_3", "position": [3.1, 0.46, -4.72], "yaw": 0, "approach": [3.1, -0.01, -4.07]}
       ]
     },
     "round-table-hall": {
